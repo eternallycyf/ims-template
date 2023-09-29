@@ -70,4 +70,4 @@ The original `commitlint-config-gitmoji` repo can be found in [packages/config](
 
 ## License
 
-[MIT](./LICENSE) ® Arvin Xu
+[MIT](./LICENSE) ® eternallycyf Xu

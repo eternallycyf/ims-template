@@ -32,6 +32,7 @@
     "clean": "rm -rf es lib dist coverage .dumi/tmp .eslintcache",
     "dev": "dumi dev",
     "docs:build": "dumi build",
+    "docs:preview": "yarn docs:build && cd dist && npx serve",
     "doctor": "father doctor",
     "lint": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install && npm run setup",
