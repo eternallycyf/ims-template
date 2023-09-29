@@ -60,6 +60,11 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.9.4",
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17",
     "@testing-library/react": "^14",
