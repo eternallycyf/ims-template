@@ -6,7 +6,7 @@ hero:
     - text: 快速上手
       link: /guide
     - text: Github
-      link: /usage
+      link: https://github.com/eternallycyf/ims-view/
 ---
 
 <embed src="../README.md"></embed>
