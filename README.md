@@ -130,3 +130,5 @@ This project is [MIT](./LICENSE) licensed.
 
 [issues-shield]: https://img.shields.io/github/issues/eternallycyf/ims-template.svg?style=flat
 [issues-url]: https://github.com/eternallycyf/ims-template/issues/new/choose
+
+x
