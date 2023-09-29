@@ -60,7 +60,7 @@ export default defineConfig({
   base: isProd ? '/' : `/${repo}`,
   publicPath: isProd ? '/' : basePath,
   alias: {
-    [repo]: path.join(__dirname, '../src'),
+    [repo]: path.join(__dirname, './src'),
   },
   favicons: [isProd ? '/images/favicon.ico' : `/${repo}/images/favicon.ico`],
   styles: [

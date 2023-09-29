@@ -1,10 +1,4 @@
 {
-  "include": [
-    "src",
-    "tests",
-    ".dumirc.ts",
-    "*.ts"
-  ],
   "compilerOptions": {
     "strict": true,
     "declaration": true,
@@ -13,6 +7,8 @@
     "resolveJsonModule": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
+    "declaration": true,
+    "experimentalDecorators": true,
     "types": [
       "vitest/globals"
     ],
@@ -23,10 +19,10 @@
       "@/*": [
         "src"
       ],
-      "ims-template": [
+      "ims-view": [
         "src"
       ],
-      "ims-template/*": [
+      "ims-view/*": [
         "src/*",
         "*"
       ]
