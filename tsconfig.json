@@ -9,23 +9,12 @@
     "baseUrl": ".",
     "declaration": true,
     "experimentalDecorators": true,
-    "types": [
-      "vitest/globals"
-    ],
+    "types": ["vitest/globals"],
     "paths": {
-      "@@/*": [
-        ".dumi/tmp/*"
-      ],
-      "@/*": [
-        "src"
-      ],
-      "ims-view": [
-        "src"
-      ],
-      "ims-view/*": [
-        "src/*",
-        "*"
-      ]
+      "@@/*": [".dumi/tmp/*"],
+      "@/*": ["src"],
+      "ims-template": ["src"],
+      "ims-template/*": ["src/*", "*"]
     }
   }
 }
