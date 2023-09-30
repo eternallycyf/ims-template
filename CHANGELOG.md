@@ -1,6 +1,4 @@
-# Changelog
-
-## [Version&nbsp;1.4.0](https://github.com/eternallycyf/ims-template/compare/v1.3.0...v1.4.0)
+## Version&nbsp;1.4.0
 
 <sup>Released on **2023-09-30**</sup>
 
@@ -19,11 +17,11 @@
 
 #### What's improved
 
-- **chore**: Update config ([242c4b7](https://github.com/eternallycyf/ims-template/commit/242c4b7))
+- **chore**: Update config ([242c4b7](https://github.com/eternallycyf/ims-template/commit/242c4b7)) - by **eternallycyf**
 
 #### What's fixed
 
-- **tsconfig**: Typescript path ([55aba67](https://github.com/eternallycyf/ims-template/commit/55aba67))
+- **tsconfig**: Typescript path ([55aba67](https://github.com/eternallycyf/ims-template/commit/55aba67)) - by **eternallycyf**
 
 </details>
 
@@ -33,32 +31,7 @@
 
 </div>
 
-## [Version&nbsp;1.4.0](https://github.com/eternallycyf/ims-template/compare/v1.3.0...v1.4.0)
-
-<sup>Released on **2023-09-30**</sup>
-
-#### ✨ 新特性
-
-- **chore**: Update config.
-
-<br/>
-
-<details>
-<summary><kbd>Improvements and Fixes</kbd></summary>
-
-#### What's improved
-
-- **chore**: Update config ([242c4b7](https://github.com/eternallycyf/ims-template/commit/242c4b7))
-
-</details>
-
-<div align="right">
-
-[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
-
-</div>
-
-## [Version&nbsp;1.3.0](https://github.com/eternallycyf/ims-template/compare/v1.2.1...v1.3.0)
+## Version&nbsp;1.3.0
 
 <sup>Released on **2023-09-29**</sup>
 
@@ -73,7 +46,7 @@
 
 #### What's improved
 
-- Add antd lodash icon dependencies ([81b1d08](https://github.com/eternallycyf/ims-template/commit/81b1d08))
+- Add antd lodash icon dependencies ([81b1d08](https://github.com/eternallycyf/ims-template/commit/81b1d08)) - by **eternallycyf**
 
 </details>
 
@@ -83,7 +56,7 @@
 
 </div>
 
-### [Version&nbsp;1.2.1](https://github.com/eternallycyf/ims-template/compare/v1.2.0...v1.2.1)
+### Version&nbsp;1.2.1
 
 <sup>Released on **2023-09-29**</sup>
 
@@ -98,7 +71,7 @@
 
 #### What's fixed
 
-- 默认组件根路径 ([04c485c](https://github.com/eternallycyf/ims-template/commit/04c485c))
+- 默认组件根路径 ([04c485c](https://github.com/eternallycyf/ims-template/commit/04c485c)) - by **eternallycyf**
 
 </details>
 
@@ -108,7 +81,7 @@
 
 </div>
 
-## [Version&nbsp;1.2.0](https://github.com/eternallycyf/ims-template/compare/v1.1.0...v1.2.0)
+## Version&nbsp;1.2.0
 
 <sup>Released on **2023-09-29**</sup>
 
@@ -123,7 +96,7 @@
 
 #### What's improved
 
-- Update guide docs ([ed6e487](https://github.com/eternallycyf/ims-template/commit/ed6e487))
+- Update guide docs ([ed6e487](https://github.com/eternallycyf/ims-template/commit/ed6e487)) - by **eternallycyf**
 
 </details>
 
