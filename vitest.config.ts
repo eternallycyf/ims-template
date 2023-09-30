@@ -3,7 +3,7 @@ import { name } from './package.json';
 
 export default defineConfig({
   esbuild: {
-    jsxInject: "import React from 'react'",
+    // jsxInject: "import React from 'react'",
   },
   test: {
     setupFiles: './tests/test-setup.ts',

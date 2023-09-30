@@ -48,6 +48,8 @@ const themeConfig: SiteThemeConfig = {
   apiHeader: {
     sourceUrl: `{github}/tree/master/src/components/{atomId}/index.tsx`,
     docUrl: `{github}/tree/master/example/docs/components/{atomId}.{locale}.md`,
+    pkg: 'ims-template',
+    match: ['/components'],
   },
 
   footer: 'Made with ❤️ by 蚂蚁集团 - AFX & 数字科技',
@@ -70,7 +72,7 @@ export default defineConfig({
   }`,
     style,
   ],
-  devtool: isProd ? 'source-map' : false,
+  devtool: isProd ? false : 'source-map',
   clickToComponent: {},
   ignoreMomentLocale: true,
   targets: { chrome: 79 },
@@ -79,8 +81,15 @@ export default defineConfig({
   ssr: isProd ? {} : false,
   extraBabelPlugins: ['antd-style'],
   hash: true,
+  mock: {},
   html2sketch: {},
   mfsu: {
     runtimePublicPath: true,
+  },
+  resolve: {
+    docDirs: ['docs'],
+    atomDirs: [{ type: 'component', dir: './src/components' }],
+    entryFile: './src/index.ts',
+    codeBlockMode: 'passive',
   },
 });

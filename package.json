@@ -16,7 +16,9 @@
   },
   "license": "MIT",
   "author": "eternallycyf(969475322@qq.com)",
-  "sideEffects": false,
+  "sideEffects": [
+    "**/*.less"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
@@ -61,11 +63,10 @@
     ]
   },
   "dependencies": {
-    "@ant-design/icons": "^5.2.6",
-    "antd": "^5.9.4",
-    "lodash": "^4.17.21"
+    "@babel/runtime": "^7.23.1"
   },
   "devDependencies": {
+    "@ant-design/icons": "^5.2.6",
     "@commitlint/cli": "^17",
     "@testing-library/react": "^14",
     "@types/lodash": "^4.14.199",
@@ -73,6 +74,7 @@
     "@types/react-dom": "^18",
     "@umijs/lint": "^4",
     "@vitest/coverage-v8": "latest",
+    "antd": "^5.9.4",
     "babel-plugin-antd-style": "^1.0.4",
     "commitlint": "^17",
     "commitlint-config-gitmoji": "^2",
@@ -86,6 +88,7 @@
     "husky": "^8",
     "jsdom": "^22",
     "lint-staged": "^13",
+    "lodash": "^4.17.21",
     "prettier": "^2",
     "prettier-plugin-organize-imports": "^3",
     "prettier-plugin-packagejson": "^2",
@@ -96,6 +99,11 @@
     "stylelint": "^15",
     "typescript": "^5",
     "vitest": "latest"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.9.4",
+    "lodash": "^4.17.21"
   },
   "publishConfig": {
     "access": "public",
