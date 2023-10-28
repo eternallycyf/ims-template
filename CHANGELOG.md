@@ -1,3 +1,30 @@
+# Changelog
+
+## [Version&nbsp;1.5.0](https://github.com/eternallycyf/ims-template/compare/v1.4.0...v1.5.0)
+
+<sup>Released on **2023-10-28**</sup>
+
+#### ✨ 新特性
+
+- Update demos.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Update demos ([3eb0b23](https://github.com/eternallycyf/ims-template/commit/3eb0b23))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## Version&nbsp;1.4.0
 
 <sup>Released on **2023-09-30**</sup>
