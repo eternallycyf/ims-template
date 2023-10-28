@@ -46,10 +46,10 @@ const themeConfig: SiteThemeConfig = {
   },
   socialLinks: { github: homepage },
   apiHeader: {
-    sourceUrl: `{github}/tree/master/src/components/{atomId}/index.tsx`,
-    docUrl: `{github}/tree/master/example/docs/components/{atomId}.{locale}.md`,
+    sourceUrl: `https://github.com/eternallycyf/ims-template/tree/master/src/components/{atomId}/index.tsx`,
+    docUrl: `https://github.com/eternallycyf/ims-template/tree/master/src/components/{atomId}/index.md`,
     pkg: 'ims-template',
-    match: ['/components'],
+    match: ['/ims-template/src/component'],
   },
 
   footer: 'Made with ❤️ by 蚂蚁集团 - AFX & 数字科技',
@@ -63,6 +63,7 @@ export default defineConfig({
   publicPath: isProd ? '/' : basePath,
   alias: {
     [repo]: path.join(__dirname, './src'),
+    [repo + '/src']: path.join(__dirname, './src/*'),
   },
   favicons: [isProd ? '/images/favicon.ico' : `/${repo}/images/favicon.ico`],
   styles: [
@@ -82,6 +83,7 @@ export default defineConfig({
   extraBabelPlugins: ['antd-style'],
   hash: true,
   mock: {},
+  exportStatic: false,
   html2sketch: {},
   mfsu: {
     runtimePublicPath: true,
