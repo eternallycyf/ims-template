@@ -43,7 +43,12 @@ nvm install v18.18.0
 nvm use v18.18.0
 :::
 
-## Step3. 搭建 Vercel
+## Step3. 更换一些信息
+
+- 全局搜索 `ims-template` 替换为 自己的包名
+- [案例的 commit 差异记录](https://github.com/eternallycyf/ims-indexed-db/commit/ae780193edbfb996f3ab6e2239cdb6765a6855db)
+
+## Step4. 搭建 Vercel
 
 - 登录 [Vercel](https://vercel.com)
 - 新建项目
@@ -54,7 +59,7 @@ nvm use v18.18.0
 
 - 点击 `deploy`
 
-## Step4. 发一个 npm 包试试
+## Step5. 发一个 npm 包试试
 
 - 全局替换
 
