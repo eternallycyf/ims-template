@@ -45,8 +45,17 @@ nvm use v18.18.0
 
 ## Step3. 更换一些信息
 
-- 全局搜索 `ims-template` 替换为 自己的包名
-- [案例的 commit 差异记录](https://github.com/eternallycyf/ims-indexed-db/commit/ae780193edbfb996f3ab6e2239cdb6765a6855db)
+- 更换步骤
+
+  - 全局搜索 `ims-template` 替换为 自己的包名
+  - 全局搜索 `eternallycyf` 替换为 自己的 github 名称
+  - 在 config/features.ts 及 config/footer.tsx 设置自己的首页信息及页脚信息
+  - 全局搜索 `a online docs and npm package template` 替换为自己 npm 包的描述
+  - package.json 更新 `keywords`
+  - package.json 更换 `version` 更新为 `0.0.1`
+  - 删除 `CHANGELOG.md` 内容(会自动生成)
+
+- [一个修改的 commit 差异记录](https://github.com/eternallycyf/ims-indexed-db/commit/ae780193edbfb996f3ab6e2239cdb6765a6855db)
 
 ## Step4. 搭建 Vercel
 
@@ -59,17 +68,31 @@ nvm use v18.18.0
 
 - 点击 `deploy`
 
+:::info{title='Vercel 发布的网站 默认已被墙 需要梯子'}
+如果需要国内访问 Vercel
+
+1. `Vercel` 需要在 项目配置中 定制自己域名 `Domains` => `xxx.com`
+2. 在域名提供商 阿里云 腾讯云等配置 域名 解析
+
+- www CNAME cname-china.vercel-dns.com.
+- @ A 76.223.126.88
+
+3. 在域名提供商 阿里云 腾讯云等配置 dns 解析(设置为 cloudflare 的)
+
+- lila.ns.cloudflare.com
+- drake.ns.cloudflare.com
+
+4. 在 [cloudflare](https://dash.cloudflare.com/login) 配置免费 cdn
+
+- A xxx.com 76.223.126.88 已代理 自动
+- CNAME www cname-china.vercel-dns.com 已代理 自动
+  :::
+
 ## Step5. 发一个 npm 包试试
 
-- 全局替换
+- `git commit --allow-empty -m "✨ feat: npm publish test"`
 
-  - `ims-template` => 你的 `npm` 包名
-  - `eternallycyf` => 你的 `github` 名称
-  - 更换 package.json => version => 1.0.0
-  - `git commit --allow-empty -m "✨ feat: npm publish"`
-  - yarn changelog(更新变更历史)
-
-:::info{title='以这些 git commit message 开头的会自动发包 构建生产'}
+:::info{title='以这些 git commit message 开头的会自动发包 构建生产 具体可参考./.changelogrc.js'}
 ✨ feat: xxx
 🐛 fix: xxx
 :::

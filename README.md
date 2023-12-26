@@ -8,6 +8,8 @@
 
 一个开发 npm 项目的模板
 
+node 版本 v18.13.0
+
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
 <!-- SHIELD GROUP -->

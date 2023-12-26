@@ -1,7 +1,7 @@
 ---
 hero:
   title: ims-template
-  description: a npm develop template
+  description: a online docs and npm package template
   actions:
     - text: 快速上手
       link: /guide

@@ -9,4 +9,6 @@ demo:
   cols: 2
 ---
 
-<code src='./demo/index.tsx'>Hello</code>
+## Hello
+
+<code src='./demo/index.tsx'></code>
