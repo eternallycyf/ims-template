@@ -1,5 +1,49 @@
 # Changelog
 
+## [Version&nbsp;1.6.0](https://github.com/eternallycyf/ims-template/compare/v1.5.0...v1.6.0)
+
+<sup>Released on **2023-12-26**</sup>
+
+#### ✨ 新特性
+
+- Update domos.
+
+#### 🐛 修复
+
+- Upgrade vitest alias use relative aliases.
+
+#### 📝 文档
+
+- Update docs, update docs.
+
+#### 🔖 杂项
+
+- Update eslint rules.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Update domos ([1444ab4](https://github.com/eternallycyf/ims-template/commit/1444ab4))
+
+#### What's fixed
+
+- Upgrade vitest alias use relative aliases ([3936ef4](https://github.com/eternallycyf/ims-template/commit/3936ef4))
+
+#### Documentation
+
+- Update docs ([db12610](https://github.com/eternallycyf/ims-template/commit/db12610))
+- Update docs ([99f1a3e](https://github.com/eternallycyf/ims-template/commit/99f1a3e))
+
+#### Chores
+
+- Update eslint rules ([5031224](https://github.com/eternallycyf/ims-template/commit/5031224))
+
+</details>
+
 ## [Version&nbsp;1.5.0](https://github.com/eternallycyf/ims-template/compare/v1.4.0...v1.5.0)
 
 <sup>Released on **2023-10-28**</sup>
