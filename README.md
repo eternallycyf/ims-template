@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+> 🚧 Don't use this for production code!
+
 <div align="center">
 
 [//]: # '<img width="160" src="https://avatars.githubusercontent.com/u/17870709?v=4">'
