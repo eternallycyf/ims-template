@@ -1,5 +1,48 @@
 # Changelog
 
+## [Version&nbsp;1.7.0](https://github.com/eternallycyf/ims-template/compare/v1.6.0...v1.7.0)
+
+<sup>Released on **2024-05-05**</sup>
+
+#### ✨ 新特性
+
+- Add umd build, add umd build.
+
+#### 📝 文档
+
+- Update footer, update footer, update github link.
+
+#### 🔖 杂项
+
+- Add showCustomContent, lock react version, lock react version, update footer, update footer, update gitattributes.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Add umd build ([c173d81](https://github.com/eternallycyf/ims-template/commit/c173d81))
+- Add umd build ([8f340e5](https://github.com/eternallycyf/ims-template/commit/8f340e5))
+
+#### Documentation
+
+- Update footer ([5ed8e5c](https://github.com/eternallycyf/ims-template/commit/5ed8e5c))
+- Update footer ([fc861f2](https://github.com/eternallycyf/ims-template/commit/fc861f2))
+- Update github link ([d8b46fe](https://github.com/eternallycyf/ims-template/commit/d8b46fe))
+
+#### Chores
+
+- Add showCustomContent ([285043c](https://github.com/eternallycyf/ims-template/commit/285043c))
+- Lock react version ([8bf0ed6](https://github.com/eternallycyf/ims-template/commit/8bf0ed6))
+- Lock react version ([4acb0ca](https://github.com/eternallycyf/ims-template/commit/4acb0ca))
+- Update footer ([ee1b4b8](https://github.com/eternallycyf/ims-template/commit/ee1b4b8))
+- Update footer ([f4c40d9](https://github.com/eternallycyf/ims-template/commit/f4c40d9))
+- Update gitattributes ([b6956b6](https://github.com/eternallycyf/ims-template/commit/b6956b6))
+
+</details>
+
 ## [Version&nbsp;1.6.0](https://github.com/eternallycyf/ims-template/compare/v1.5.0...v1.6.0)
 
 <sup>Released on **2023-12-26**</sup>
