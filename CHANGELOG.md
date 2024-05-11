@@ -1,5 +1,24 @@
 # Changelog
 
+### [Version&nbsp;1.7.1](https://github.com/eternallycyf/ims-template/compare/v1.7.0...v1.7.1)
+
+<sup>Released on **2024-05-11**</sup>
+
+#### 🐛 修复
+
+- Docs footer z-index.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- Docs footer z-index ([51adb1d](https://github.com/eternallycyf/ims-template/commit/51adb1d))
+
+</details>
+
 ## [Version&nbsp;1.7.0](https://github.com/eternallycyf/ims-template/compare/v1.6.0...v1.7.0)
 
 <sup>Released on **2024-05-05**</sup>
