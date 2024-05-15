@@ -1,5 +1,32 @@
 # Changelog
 
+### [Version&nbsp;1.7.2](https://github.com/eternallycyf/ims-template/compare/v1.7.1...v1.7.2)
+
+<sup>Released on **2024-05-15**</sup>
+
+#### 🐛 修复
+
+- Entra use ts replace tsx.
+
+#### 📝 文档
+
+- Update LICENSE.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- Entra use ts replace tsx ([fe58047](https://github.com/eternallycyf/ims-template/commit/fe58047))
+
+#### Documentation
+
+- Update LICENSE ([2265b0b](https://github.com/eternallycyf/ims-template/commit/2265b0b))
+
+</details>
+
 ### [Version&nbsp;1.7.1](https://github.com/eternallycyf/ims-template/compare/v1.7.0...v1.7.1)
 
 <sup>Released on **2024-05-11**</sup>
