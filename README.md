@@ -8,7 +8,7 @@
 
 <h1>ims-template</h1>
 
-一个开发 npm 项目的模板
+一个开发 npm 项目的模板.
 
 node 版本 v18.13.0
 
